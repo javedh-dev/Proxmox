@@ -79,7 +79,7 @@ chmod -R 755 ${BOOKSTACK_DIR}
 chmod -R 775 ${BOOKSTACK_DIR}/storage ${BOOKSTACK_DIR}/bootstrap/cache ${BOOKSTACK_DIR}/public/uploads
 chmod 640 ${BOOKSTACK_DIR}/.env
 $STD git config core.fileMode false
-php artisan migrate --no-interaction --force
+$STD php artisan migrate --no-interaction --force
 msg_ok "Set up bookstack"
 
 
