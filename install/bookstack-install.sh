@@ -73,13 +73,13 @@ sed -i.bak "s@APP_URL=.*\$@APP_URL=http://$CURRENT_IP@" .env
 sed -i.bak 's/DB_DATABASE=.*$/DB_DATABASE=bookstack/' .env
 sed -i.bak 's/DB_USERNAME=.*$/DB_USERNAME=bookstack/' .env
 sed -i.bak "s/DB_PASSWORD=.*\$/DB_PASSWORD=$DB_PASS/" .env
-php artisan key:generate --no-interaction --force
+$STD php artisan key:generate --no-interaction --force
 chown -R root:www-data ${BOOKSTACK_DIR}
 chmod -R 755 ${BOOKSTACK_DIR}
 chmod -R 775 ${BOOKSTACK_DIR}/storage ${BOOKSTACK_DIR}/bootstrap/cache ${BOOKSTACK_DIR}/public/uploads
 chmod 640 ${BOOKSTACK_DIR}/.env
 $STD git config core.fileMode false
-php artisan migrate --no-interaction --force
+$STD php artisan migrate --no-interaction --force
 msg_ok "Set up bookstack"
 
 
