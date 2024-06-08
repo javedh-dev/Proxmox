@@ -71,4 +71,6 @@ description
 
 msg_ok "Completed Successfully!\n"
 echo -e "${APP} Setup should be reachable by going to the following URL.
-         ${BL}http://${IP}${CL} \n"
+         ${BL}http://${IP}${CL} \n\n
+         ${YW}email${CL} - admin@admin.com\n
+         ${YW}password${CL} - password\n"
