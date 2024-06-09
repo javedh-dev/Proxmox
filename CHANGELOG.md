@@ -1,6 +1,6 @@
 <div align="center">
   <a href="#">
-    <img src="https://raw.githubusercontent.com/tteck/Proxmox/main/misc/images/logo.png" height="100px" />
+    <img src="https://raw.githubusercontent.com/javedh-dev/Proxmox/main/misc/images/logo.png" height="100px" />
  </a>
 </div>
 <h1 align="center">Change Log</h1>
@@ -178,7 +178,7 @@
 ### Changed
 
 - **Frigate LXC**
-  - Unprivileged Hardware Acceleration https://github.com/tteck/Proxmox/discussions/2711#discussioncomment-9244629
+  - Unprivileged Hardware Acceleration https://github.com/javedh-dev/Proxmox/discussions/2711#discussioncomment-9244629
 - **Ubuntu 24.04 VM**
   - NEW Script
 
@@ -343,21 +343,21 @@
 ### Changed
 
 - **All scripts**
-  - As of today, the scripts require the Bash shell specifically. ([more info](https://github.com/tteck/Proxmox/discussions/2536))
+  - As of today, the scripts require the Bash shell specifically. ([more info](https://github.com/javedh-dev/Proxmox/discussions/2536))
 
 ## 2024-02-19
 
 ### Changed
 
 - **PairDrop LXC**
-  - Removed from the website ([more info](https://github.com/tteck/Proxmox/discussions/2516))
+  - Removed from the website ([more info](https://github.com/javedh-dev/Proxmox/discussions/2516))
 
 ## 2024-02-16
 
 ### Changed
 
 - **Proxmox VE LXC Filesystem Trim**
-  - NEW Script ([more info](https://github.com/tteck/Proxmox/discussions/2505#discussion-6226037))
+  - NEW Script ([more info](https://github.com/javedh-dev/Proxmox/discussions/2505#discussion-6226037))
 
 ## 2024-02-11
 
@@ -442,7 +442,7 @@
 - **Apt-Cacher-NG LXC**
   - NEW Script
 - **New Feature**
-  - The option to utilize Apt-Cacher-NG (Advanced settings) when creating LXCs. The added functionality is expected to decrease bandwidth usage and expedite package installation and updates. https://github.com/tteck/Proxmox/discussions/2332
+  - The option to utilize Apt-Cacher-NG (Advanced settings) when creating LXCs. The added functionality is expected to decrease bandwidth usage and expedite package installation and updates. https://github.com/javedh-dev/Proxmox/discussions/2332
 
 ## 2024-01-09
 
@@ -474,7 +474,7 @@
 - **Sonarr LXC**
   - Breaking Change
   - Complete recode
-  - https://github.com/tteck/Proxmox/discussions/1738#discussioncomment-8005107
+  - https://github.com/javedh-dev/Proxmox/discussions/1738#discussioncomment-8005107
 
 ## 2024-01-01
 
@@ -762,7 +762,7 @@
 ### Changed
 
 - **qBittorrent LXC**
-  - Removed from this repository for potential malicious hidden code https://github.com/tteck/Proxmox/discussions/1725
+  - Removed from this repository for potential malicious hidden code https://github.com/javedh-dev/Proxmox/discussions/1725
 
 ## 2023-08-16
 
@@ -857,7 +857,7 @@
 ### Changed
 
 - **Proxmox VE Monitor-All**
-  - Skip instances based on onboot and templates. [8c2a3cc](https://github.com/tteck/Proxmox/commit/8c2a3cc4d774fa13d17f695d6bdf9a4deedb1372). 
+  - Skip instances based on onboot and templates. [8c2a3cc](https://github.com/javedh-dev/Proxmox/commit/8c2a3cc4d774fa13d17f695d6bdf9a4deedb1372). 
 
 ## 2023-06-12
 
@@ -993,7 +993,7 @@
 
 - **InfluxDB LXC**
   - Choosing InfluxDB v1 will result in Chronograf being installed automatically.
-- **[User Submitted Guides](https://github.com/tteck/Proxmox/blob/main/USER_SUBMITTED_GUIDES.md)**
+- **[User Submitted Guides](https://github.com/javedh-dev/Proxmox/blob/main/USER_SUBMITTED_GUIDES.md)**
   -  Informative guides that demonstrate how to install various software packages using Proxmox VE Helper Scripts.
 
 ## 2023-04-14
@@ -1297,7 +1297,7 @@
 
 ### Changed
 
-- **v5 Scripts** (Testing before moving forward https://github.com/tteck/Proxmox/discussions/881)
+- **v5 Scripts** (Testing before moving forward https://github.com/javedh-dev/Proxmox/discussions/881)
   - Adguard Home LXC
   - Docker LXC
   - Home Assistant Core LXC
@@ -1387,7 +1387,7 @@
 ### Changed
 
 - **Proxmox LXC Updater** 
-  - Now updates Ubuntu, Debian, Devuan, Alpine Linux, CentOS-Rocky-Alma, Fedora, ArchLinux [(@Uruknara)](https://github.com/tteck/Proxmox/commits?author=Uruknara)
+  - Now updates Ubuntu, Debian, Devuan, Alpine Linux, CentOS-Rocky-Alma, Fedora, ArchLinux [(@Uruknara)](https://github.com/javedh-dev/Proxmox/commits?author=Uruknara)
 
 ## 2022-11-13
 
@@ -1401,7 +1401,7 @@
 ### Changed
 
 - **HA Bluetooth Integration Preparation** 
-  - [NEW Script](https://github.com/tteck/Proxmox/discussions/719)
+  - [NEW Script](https://github.com/javedh-dev/Proxmox/discussions/719)
 
 ## 2022-11-04
 
@@ -1424,7 +1424,7 @@
 ### Changed
 
 - **Container & Core Restore from Backup** 
-  - [NEW Scripts](https://github.com/tteck/Proxmox/discussions/674)
+  - [NEW Scripts](https://github.com/javedh-dev/Proxmox/discussions/674)
 
 ## 2022-10-07
 
@@ -1597,7 +1597,7 @@
 - **Home Assistant OS VM** 
   - Present the drive to the guest as a solid-state drive rather than a rotational hard disk. There is no requirement that the underlying storage actually be backed by SSD's. 
   - When the VM’s filesystem marks blocks as unused after deleting files, the SCSI controller will relay this information to the storage, which will then shrink the disk image accordingly.
-  - 👉 [more info](https://github.com/tteck/Proxmox/discussions/378)
+  - 👉 [more info](https://github.com/javedh-dev/Proxmox/discussions/378)
 
 ## 2022-07-22
 
@@ -1809,7 +1809,7 @@
 ### Changed
 
 - **ALL LXC's**
-  - New [V3 Install Script](https://github.com/tteck/Proxmox/issues/162) 
+  - New [V3 Install Script](https://github.com/javedh-dev/Proxmox/issues/162) 
 - **ioBroker LXC**
   - New Script V3
 
@@ -2090,28 +2090,28 @@
 ### Changed
 
 - **Node-Red LXC**
-  - Add Install [Themes Script](https://raw.githubusercontent.com/tteck/Proxmox/main/misc/images/node-red-themes.png)
+  - Add Install [Themes Script](https://raw.githubusercontent.com/javedh-dev/Proxmox/main/misc/images/node-red-themes.png)
 
 ## 2022-02-16
 
 ### Changed
 
 - **Home Assistant Container LXC**
-  - Add Options to [Update Menu](https://raw.githubusercontent.com/tteck/Proxmox/main/misc/images/update-menu.png)
+  - Add Options to [Update Menu](https://raw.githubusercontent.com/javedh-dev/Proxmox/main/misc/images/update-menu.png)
 
 ## 2022-02-14
 
 ### Changed
 
 - **Home Assistant Container LXC**
-  - Add [Update Menu](https://raw.githubusercontent.com/tteck/Proxmox/main/misc/images/update-menu.png)
+  - Add [Update Menu](https://raw.githubusercontent.com/javedh-dev/Proxmox/main/misc/images/update-menu.png)
 
 ## 2022-02-13
 
 ### Changed
 
 - **Mariadb LXC**
-  - Add [Adminer](https://raw.githubusercontent.com/tteck/Proxmox/main/misc/images/adminer.png) (formerly phpMinAdmin), a full-featured database management tool
+  - Add [Adminer](https://raw.githubusercontent.com/javedh-dev/Proxmox/main/misc/images/adminer.png) (formerly phpMinAdmin), a full-featured database management tool
 
 ## 2022-02-12
 
@@ -2129,7 +2129,7 @@
 - **GamUntu LXC**
   - New Script
 - **Jellyfin Media Server LXC**
-  - new script to fix [start issue](https://github.com/tteck/Proxmox/issues/29#issue-1127457380)
+  - new script to fix [start issue](https://github.com/javedh-dev/Proxmox/issues/29#issue-1127457380)
 - **MotionEye NVR LXC**
   - New script
 
@@ -2203,7 +2203,7 @@
   - `va-driver-all` is preinstalled
   - now using Ubuntu 21.10
 - **misc**
-  - new GUI script [(Screenshot)](https://raw.githubusercontent.com/tteck/Proxmox/main/misc/images/pms-copy-data.png) to copy data from one Plex Media Server LXC to another Plex Media Server LXC 
+  - new GUI script [(Screenshot)](https://raw.githubusercontent.com/javedh-dev/Proxmox/main/misc/images/pms-copy-data.png) to copy data from one Plex Media Server LXC to another Plex Media Server LXC 
 
 
 ## Initial Catch up - 2022-01-23
